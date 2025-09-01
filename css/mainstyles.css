@@ -353,3 +353,31 @@
   
 
 
+/* Very small devices (max-width: 420px) */
+@media screen and (max-width: 420px) {
+ html {
+   font-size: 60%;
+ }
+ 
+ .content-wrapper {
+   max-width: 95%;
+   padding: 2rem;
+ }
+ 
+ .content-bg {
+   padding: 2rem;
+ }
+ 
+ body {
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .home {
+   max-width: 100%;
+ }
+
+ h1 {
+    font-size: 6rem;
+ }
+}
